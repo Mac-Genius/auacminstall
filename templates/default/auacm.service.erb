@@ -1,0 +1,10 @@
+[Unit]
+Description=AUACM Server Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/<%=@user%>/projects/auacm/auacm/flask/bin/python /home/<%=@user%>/projects/auacm/auacm/run.py
+
+[Install]
+WantedBy=multi-user.target
