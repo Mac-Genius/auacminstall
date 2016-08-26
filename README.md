@@ -1,6 +1,6 @@
 # auacminstall cookbook
 
-This cookbook will install and configure AUACM's website and run it as a linux server.
+This cookbook will install and configure [AUACM's](https://github.com/AuburnACM/auacm) website and run it as a linux server.
 
 ## Requirements
 
